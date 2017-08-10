@@ -1,0 +1,33 @@
+PODS:
+  - AFNetworking (3.1.0):
+    - AFNetworking/NSURLSession (= 3.1.0)
+    - AFNetworking/Reachability (= 3.1.0)
+    - AFNetworking/Security (= 3.1.0)
+    - AFNetworking/Serialization (= 3.1.0)
+    - AFNetworking/UIKit (= 3.1.0)
+  - AFNetworking/NSURLSession (3.1.0):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.1.0)
+  - AFNetworking/Security (3.1.0)
+  - AFNetworking/Serialization (3.1.0)
+  - AFNetworking/UIKit (3.1.0):
+    - AFNetworking/NSURLSession
+  - CSCFramework (1.0.0):
+    - AFNetworking
+
+DEPENDENCIES:
+  - CSCFramework (from `../`)
+
+EXTERNAL SOURCES:
+  CSCFramework:
+    :path: ../
+
+SPEC CHECKSUMS:
+  AFNetworking: 5e0e199f73d8626b11e79750991f5d173d1f8b67
+  CSCFramework: 6d2150ec4a4fee0758a68d777b45fb80821e61cf
+
+PODFILE CHECKSUM: 4fe2245300b743d5ce2ebb48e69d4cd4fd312e02
+
+COCOAPODS: 1.2.1

@@ -7,6 +7,9 @@
 //
 
 #import "CSCViewController.h"
+#import <CSCFramework/TestHead.h>
+#import <CSCFramework/CSCFileManager.h>
+#import <CSCFramework/ProjectHead.h>
 
 @interface CSCViewController ()
 
@@ -18,6 +21,7 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    NSLog(@"%@", [CSCFileManager getDocumentsPath]);
 }
 
 - (void)didReceiveMemoryWarning
